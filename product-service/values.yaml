@@ -1,0 +1,9 @@
+replicaCount: 2
+
+image:
+  repository: venkat8430/product-service
+  tag: "38"
+
+service:
+  type: NodePort
+  port: 8080
